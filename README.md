@@ -4,6 +4,7 @@ implementation of ["Hierarchic Voronoi skeletons"](https://citeseerx.ist.psu.edu
 The algorithm is implemented in C++, and python bindings are available through pybind11.
 
 ## Dependencies
+- python3.7
 - libcgal-dev(>=5.2.4)
 - libgmp3-dev
 - libboost1.65-dev(or higher)
