@@ -7,6 +7,9 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), './bu
 
 from concavehull import concavehull, galaxy, skeleton, simplify_polylines, simple_join, hierarchic_skeleton
 
+import matplotlib
+matplotlib.use('TkAgg')
+
 def genPts():
     n = 100
     pts = np.random.randn(n,2)
